@@ -1,0 +1,12 @@
+# --- Core Rendering ---
+wgpu==0.15.1
+numpy==1.26.4
+Pillow==10.3.0
+
+# --- Video & Image Processing ---
+# Headless version prevents Qt/Display conflicts on Linux/Kubuntu
+opencv-python-headless==4.10.0.84
+
+# --- System & Utilities ---
+# tkinter is usually built-in, but this ensures compatibility for the file explorer
+# (Note: On some Linux distros, you may also need: sudo apt install python3-tk)

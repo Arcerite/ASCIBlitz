@@ -1,0 +1,21 @@
+# Python Clutter
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+ven/
+
+# Environment & Secrets
+.env
+venv/
+env/
+__pycache__/
+
+
+# Ignore everything in these folders...
+inputs/*
+outputs/*
+
+# ...BUT do not ignore the .gitkeep files
+!inputs/.gitkeep
+!outputs/.gitkeep
